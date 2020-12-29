@@ -1,0 +1,73 @@
+body{
+    margin: auto;
+    padding: 0%;
+    background-image: url(https://www.tika.ai/wp-content/uploads/2019/07/todolist.jpg);
+    background-size: cover;
+}
+
+#main{
+    padding: 0%;
+    width: 100%;
+    height: 75px;
+    background-color: blueviolet;
+    margin-bottom: 2%;
+    text-align: center;
+    position: fixed;
+    opacity: 0.85;
+
+}
+#heading{
+    color: black
+    font-family: 'Times New Roman', Times, serif;
+}
+#main2{
+    width: 50%;
+    height: 480px;
+    margin-left: 23%;
+    text-align: center;
+    background-color: darkcyan;
+    position: absolute;
+    top: 115px;
+    opacity: 0.91;
+    border-radius: 2rem;
+}
+#todo{
+    margin-top: 2%;
+    margin-right: 5%;
+    height: 50px;
+    border-radius: 2rem;
+    border-color: mediumorchid;
+    background-color: cyan;
+    border: none;
+    width: 45%;
+}
+#but{
+    background-size: cover;
+    position: relative;
+    left: -20px;
+    top: 15px;
+    width: 45px;
+    margin-top: 2%;
+    border: none;
+    background-color: #99adad17;
+    height: 45px;
+    box-shadow: 1px 12px 17px 0px #5d696570;
+    border-radius: 2rem;
+    border-color: #46828261;
+    background-image: url(https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/add-circle-blue-512.png);
+}
+#delAll{
+    background-size: cover;
+    position: relative;
+    left: -20px;
+    top: 15px;
+    width: 45px;
+    margin-top: 2%;
+    border: none;
+    background-color: #ffffff63;
+    height: 45px;
+    box-shadow: 1px 12px 17px 0px #5d696570;
+    border-radius: 2rem;
+    border-color: #46828261;
+    background-image: url(https://cdn.iconscout.com/icon/premium/png-512-thumb/delete-1432400-1211078.png);
+}
