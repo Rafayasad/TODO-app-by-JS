@@ -41,6 +41,9 @@ body{
     border: none;
     width: 45%;
 }
+#todo:focus{
+    outline: none;
+}
 #but{
     background-size: cover;
     position: relative;
@@ -56,6 +59,9 @@ body{
     border-color: #46828261;
     background-image: url(https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes/128/add-circle-blue-512.png);
 }
+#but:focus{
+    outline: none;
+}
 #delAll{
     background-size: cover;
     position: relative;
@@ -70,4 +76,7 @@ body{
     border-radius: 2rem;
     border-color: #46828261;
     background-image: url(https://cdn.iconscout.com/icon/premium/png-512-thumb/delete-1432400-1211078.png);
+}
+#delAll:focus{
+    outline: none;
 }
